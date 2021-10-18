@@ -1,0 +1,4 @@
+/logs/*.log
+/logs/_processed/*.log
+*.statefile
+.byebug_history
