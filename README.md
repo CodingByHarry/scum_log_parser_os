@@ -3,8 +3,8 @@
 We created this bot for our own personal SCUM server and never intended to open source it. It was created in a way to just work for our setup with little regard for good principles and efficiency. Please keep this in mind when using it and make your own adjustments as needed.
 
 There are 3 parts to this project
-- [Discord Bot (this page)](https://github.com/CodingByHarry/scum_discord_bot_os)
-- [Log Parser](https://github.com/CodingByHarry/scum_log_parser_os)
+- [Discord Bot](https://github.com/CodingByHarry/scum_discord_bot_os)
+- [Log Parser (this page)](https://github.com/CodingByHarry/scum_log_parser_os)
 - [SCUM Game Bot](https://github.com/CodingByHarry/scum_game_bot_os)
 
 ## Getting started
