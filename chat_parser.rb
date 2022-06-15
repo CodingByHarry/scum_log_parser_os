@@ -6,7 +6,7 @@ require "sequel"
 class ChatParser
   REGEX_GAMEVERSION = /Game version: (?<gameversion>\d+(\.\d+)*)/.freeze
   REGEX_TIMESTAMP = /\d{4}(\.)\d{2}(\.)\d{2}(\-)\d{2}(\.)\d{2}(\.)\d{2}/.freeze # 2020.08.27-10.30.20
-  REGEX_CHAT = /'(?<context>Local|Global|Squad): (?<content>.*)'/.freeze
+  REGEX_CHAT = /'(?<context>Local|Global|Squad|Admin): (?<content>.*)'/.freeze
   REGEX_IDS = /'(?<steamid64>\d{17}):(?<=\:)((?<ign>.*?))(?=\()\((?<scumid>\d+)\)'/.freeze
   REGEX_MENTIONS = /admin(s?)|coderhulk|hulk|ilikewalruses|walrus|koalaa|cheat|exploit|#/i.freeze
 
